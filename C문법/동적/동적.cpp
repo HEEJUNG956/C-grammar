@@ -6,21 +6,16 @@
 
 int main()
 {
-    int* a = new int;
-    int* b = new int;
+    int* pt1_dynamic = new int;
+    *pt1_dynamic = 10;
 
-    *a = 3;
-   
-    *b = 2;
+    double* pt2_dynamic = new double;
+    *pt2_dynamic = 31.7;
 
-    printf("a 주소값 : %d\na 변수값 : %d\na heap값 : %d\n", a, *a, sizeof(*a));
-    printf("b 주소값 : %d\nb 변수값 : %d\nb heap값 : %d\n", b, *b, sizeof(*b));
-    
-    *a = 100;
-    *b = 200;
-    printf("\n");
-    printf("a 주소값 : %d\na 변수값 : %d\na heap값 : %d\n", a, *a, sizeof(*a));
-    printf("b 주소값 : %d\nb 변수값 : %d\nb heap값 : %d\n", b, *b, sizeof(*b));
+    printf("int형 동적 할당 값 : %d\n", *pt1_dynamic);
+    printf("int형 동적 할당 값 : %p\n", pt1_dynamic);
+    printf("double형 동적 할당 값 : %f\n", *pt2_dynamic);
+    printf("double형 동적 할당 값 : %p\n", pt2_dynamic);
 }
 
 
