@@ -79,6 +79,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "클래스", "클래스\클�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "클래스 접근제어자", "클래스 접근제어자\클래스 접근제어자.vcxproj", "{A6BADFA8-7FB3-478B-940C-7BEF6167C5EA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "this포인터", "this포인터\this포인터.vcxproj", "{33FE8E63-E423-4625-AB80-D0976BEAC729}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -545,6 +547,18 @@ Global
 		{A6BADFA8-7FB3-478B-940C-7BEF6167C5EA}.Release|x64.Build.0 = Release|x64
 		{A6BADFA8-7FB3-478B-940C-7BEF6167C5EA}.Release|x86.ActiveCfg = Release|Win32
 		{A6BADFA8-7FB3-478B-940C-7BEF6167C5EA}.Release|x86.Build.0 = Release|Win32
+		{33FE8E63-E423-4625-AB80-D0976BEAC729}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{33FE8E63-E423-4625-AB80-D0976BEAC729}.Debug|Any CPU.Build.0 = Debug|x64
+		{33FE8E63-E423-4625-AB80-D0976BEAC729}.Debug|x64.ActiveCfg = Debug|x64
+		{33FE8E63-E423-4625-AB80-D0976BEAC729}.Debug|x64.Build.0 = Debug|x64
+		{33FE8E63-E423-4625-AB80-D0976BEAC729}.Debug|x86.ActiveCfg = Debug|Win32
+		{33FE8E63-E423-4625-AB80-D0976BEAC729}.Debug|x86.Build.0 = Debug|Win32
+		{33FE8E63-E423-4625-AB80-D0976BEAC729}.Release|Any CPU.ActiveCfg = Release|x64
+		{33FE8E63-E423-4625-AB80-D0976BEAC729}.Release|Any CPU.Build.0 = Release|x64
+		{33FE8E63-E423-4625-AB80-D0976BEAC729}.Release|x64.ActiveCfg = Release|x64
+		{33FE8E63-E423-4625-AB80-D0976BEAC729}.Release|x64.Build.0 = Release|x64
+		{33FE8E63-E423-4625-AB80-D0976BEAC729}.Release|x86.ActiveCfg = Release|Win32
+		{33FE8E63-E423-4625-AB80-D0976BEAC729}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
