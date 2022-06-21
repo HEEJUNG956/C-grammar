@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 // 확인
 namespace C샵
@@ -36,7 +32,7 @@ namespace C샵
 
         static bool Adult(int a)
         {
-            if(a > 19)
+            if (a > 19)
                 return true;
             else
                 return false;
@@ -44,7 +40,7 @@ namespace C샵
 
         static string Marry(bool temp)
         {
-            if(temp == true)
+            if (temp == true)
             {
                 return "yes";
             }
@@ -71,14 +67,14 @@ namespace C샵
             p1.marry = true;
 
             Change(ref p1.city, ref p1.country);
-            
+
 
             Console.WriteLine("이름 : " + p1.name);
             Console.WriteLine("나이 : " + p1.age);
             Console.WriteLine("직업 : " + p1.job);
             Console.WriteLine("졸업여부 : " + p1.school);
             Console.WriteLine("도시 : " + p1.city);
-            Console.WriteLine("국적 : " + p1.country );
+            Console.WriteLine("국적 : " + p1.country);
             Console.WriteLine("성인여부 : " + p1.adult);
             Console.WriteLine("결혼여부 : " + Marry(p1.marry) + "\n");
 
