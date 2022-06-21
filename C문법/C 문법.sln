@@ -91,8 +91,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "캡슐화 - 프렌드", "�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "캡슐화 - static, const", "캡슐화 - static, const\캡슐화 - static, const.vcxproj", "{17FD209F-9320-4A84-8005-174F05B36A3F}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Log", "Log\Log.vcxproj", "{897304F1-636B-4F63-9375-74A22E79D5B2}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -631,18 +629,6 @@ Global
 		{17FD209F-9320-4A84-8005-174F05B36A3F}.Release|x64.Build.0 = Release|x64
 		{17FD209F-9320-4A84-8005-174F05B36A3F}.Release|x86.ActiveCfg = Release|Win32
 		{17FD209F-9320-4A84-8005-174F05B36A3F}.Release|x86.Build.0 = Release|Win32
-		{897304F1-636B-4F63-9375-74A22E79D5B2}.Debug|Any CPU.ActiveCfg = Debug|x64
-		{897304F1-636B-4F63-9375-74A22E79D5B2}.Debug|Any CPU.Build.0 = Debug|x64
-		{897304F1-636B-4F63-9375-74A22E79D5B2}.Debug|x64.ActiveCfg = Debug|x64
-		{897304F1-636B-4F63-9375-74A22E79D5B2}.Debug|x64.Build.0 = Debug|x64
-		{897304F1-636B-4F63-9375-74A22E79D5B2}.Debug|x86.ActiveCfg = Debug|Win32
-		{897304F1-636B-4F63-9375-74A22E79D5B2}.Debug|x86.Build.0 = Debug|Win32
-		{897304F1-636B-4F63-9375-74A22E79D5B2}.Release|Any CPU.ActiveCfg = Release|x64
-		{897304F1-636B-4F63-9375-74A22E79D5B2}.Release|Any CPU.Build.0 = Release|x64
-		{897304F1-636B-4F63-9375-74A22E79D5B2}.Release|x64.ActiveCfg = Release|x64
-		{897304F1-636B-4F63-9375-74A22E79D5B2}.Release|x64.Build.0 = Release|x64
-		{897304F1-636B-4F63-9375-74A22E79D5B2}.Release|x86.ActiveCfg = Release|Win32
-		{897304F1-636B-4F63-9375-74A22E79D5B2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
