@@ -123,6 +123,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "try catch문", "try catch�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "try catch문 2", "try catch문 2\try catch문 2.vcxproj", "{4118A6B0-B233-4475-9637-7227940F9034}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "STL - 템플릿 - 함수템플릿", "STL - 템플릿 - 함수템플릿\STL - 템플릿 - 함수템플릿.vcxproj", "{D013B919-3D07-4583-A3EF-28A912388C00}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "STL - 템플릿 - 클래스템플릿", "STL - 템플릿 - 클래스템플릿\STL - 템플릿 - 클래스템플릿.vcxproj", "{9DB2BCBB-A41C-4265-BFAE-D814BB320EC9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -853,6 +857,30 @@ Global
 		{4118A6B0-B233-4475-9637-7227940F9034}.Release|x64.Build.0 = Release|x64
 		{4118A6B0-B233-4475-9637-7227940F9034}.Release|x86.ActiveCfg = Release|Win32
 		{4118A6B0-B233-4475-9637-7227940F9034}.Release|x86.Build.0 = Release|Win32
+		{D013B919-3D07-4583-A3EF-28A912388C00}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{D013B919-3D07-4583-A3EF-28A912388C00}.Debug|Any CPU.Build.0 = Debug|x64
+		{D013B919-3D07-4583-A3EF-28A912388C00}.Debug|x64.ActiveCfg = Debug|x64
+		{D013B919-3D07-4583-A3EF-28A912388C00}.Debug|x64.Build.0 = Debug|x64
+		{D013B919-3D07-4583-A3EF-28A912388C00}.Debug|x86.ActiveCfg = Debug|Win32
+		{D013B919-3D07-4583-A3EF-28A912388C00}.Debug|x86.Build.0 = Debug|Win32
+		{D013B919-3D07-4583-A3EF-28A912388C00}.Release|Any CPU.ActiveCfg = Release|x64
+		{D013B919-3D07-4583-A3EF-28A912388C00}.Release|Any CPU.Build.0 = Release|x64
+		{D013B919-3D07-4583-A3EF-28A912388C00}.Release|x64.ActiveCfg = Release|x64
+		{D013B919-3D07-4583-A3EF-28A912388C00}.Release|x64.Build.0 = Release|x64
+		{D013B919-3D07-4583-A3EF-28A912388C00}.Release|x86.ActiveCfg = Release|Win32
+		{D013B919-3D07-4583-A3EF-28A912388C00}.Release|x86.Build.0 = Release|Win32
+		{9DB2BCBB-A41C-4265-BFAE-D814BB320EC9}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{9DB2BCBB-A41C-4265-BFAE-D814BB320EC9}.Debug|Any CPU.Build.0 = Debug|x64
+		{9DB2BCBB-A41C-4265-BFAE-D814BB320EC9}.Debug|x64.ActiveCfg = Debug|x64
+		{9DB2BCBB-A41C-4265-BFAE-D814BB320EC9}.Debug|x64.Build.0 = Debug|x64
+		{9DB2BCBB-A41C-4265-BFAE-D814BB320EC9}.Debug|x86.ActiveCfg = Debug|Win32
+		{9DB2BCBB-A41C-4265-BFAE-D814BB320EC9}.Debug|x86.Build.0 = Debug|Win32
+		{9DB2BCBB-A41C-4265-BFAE-D814BB320EC9}.Release|Any CPU.ActiveCfg = Release|x64
+		{9DB2BCBB-A41C-4265-BFAE-D814BB320EC9}.Release|Any CPU.Build.0 = Release|x64
+		{9DB2BCBB-A41C-4265-BFAE-D814BB320EC9}.Release|x64.ActiveCfg = Release|x64
+		{9DB2BCBB-A41C-4265-BFAE-D814BB320EC9}.Release|x64.Build.0 = Release|x64
+		{9DB2BCBB-A41C-4265-BFAE-D814BB320EC9}.Release|x86.ActiveCfg = Release|Win32
+		{9DB2BCBB-A41C-4265-BFAE-D814BB320EC9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
